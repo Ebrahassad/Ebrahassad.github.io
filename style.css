@@ -582,3 +582,40 @@ footer {
   }
 }
 
+
+/* ===== Final Hero & App Icon Layout ===== */
+
+.hero-badge {
+  margin-top: 28px;
+}
+
+.project-icon {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  border-radius: 22px;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 0;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .hero-badge {
+    margin-top: 20px;
+  }
+
+  .project-icon {
+    border-radius: 18px;
+  }
+}
+
