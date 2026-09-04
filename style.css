@@ -537,3 +537,48 @@ footer {
     linear-gradient(90deg, rgba(6,18,41,.96) 0%, rgba(6,18,41,.78) 45%, rgba(6,18,41,.45) 100%),
     url("assets/fatu_h.jpg") center/cover no-repeat;
 }
+
+/* ===== Hassadi Image Display Fix ===== */
+
+.hero {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(6,18,41,.94) 0%,
+      rgba(6,18,41,.72) 45%,
+      rgba(6,18,41,.35) 100%
+    ),
+    url("assets/fatu_h.jpg") center center / 100% auto no-repeat;
+  background-color: var(--bg);
+}
+
+.project-icon {
+  aspect-ratio: 1 / 1;
+  height: auto;
+  overflow: hidden;
+  background: #0a1730;
+}
+
+.project-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+  display: block;
+}
+
+.brand-mark img,
+.about-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 850px) {
+  .hero {
+    background-size: 100% auto;
+    background-position: center top;
+  }
+}
+
