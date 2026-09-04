@@ -619,3 +619,36 @@ footer {
   }
 }
 
+
+/* ===== Hassadi FINAL IMAGE + HERO FIX ===== */
+
+.hero .hero-badge {
+  position: relative !important;
+  top: 18px !important;
+  margin-top: 0 !important;
+  margin-bottom: 18px !important;
+}
+
+.project-icon {
+  width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  border-radius: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.project-icon img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
